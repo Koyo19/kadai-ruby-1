@@ -4,7 +4,6 @@ family_name ="田中"
 first_name ="太郎"
 #年齢
 old = 19
+old = old.to_s
 
-puts family_name
-puts first_name
-puts old.to_i
+puts family_name + first_name + "です。" + old + '歳です。'
