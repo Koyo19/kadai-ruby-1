@@ -1,6 +1,10 @@
 #苗字
-family-name ="田中"
+family_name ="田中"
 #名前
-first-name ="太郎"
+first_name ="太郎"
 #年齢
-old =19
+old = 19
+
+puts family_name
+puts first_name
+puts old.to_i
